@@ -1,0 +1,31 @@
+//Cau 7:
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int nA;
+            Console.WriteLine("Nhap A: ");
+            nA = int.Parse(Console.ReadLine());
+            Console.WriteLine("A = {0}", nA);
+            if(nA%2==0)
+            {
+                nA++;
+                Console.WriteLine("A(new)={0}", nA);
+            }
+            else
+            {
+                nA--;
+                Console.WriteLine("A(new)={0}", nA);
+            }
+
+            Console.ReadKey();
+        }
+    }
+}
