@@ -1,85 +1,15 @@
-# UngDung_w1
-/*
- Name: Huynh Duy Quoc
- MSSV: 18211TT5025
- Bai 3:
- */
-
-
-
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace ConsoleApplication3
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            //Khai Bao Bien
-
-            string s_TenPhong;
-            string s_TenNguoiThue;
-            string s_Age;
-            string s_QueQuanNT;
-            double d_TienPhong;
-            double d_TienDien;
-            double d_TienNuoc;
-            double d_TienWF;
-            double d_Rac;
-
-            //**Phan Nhap Thong Tin
-            //Thong tin cua Day tro
-            Console.WriteLine("Dia chi day tro: So 123/7 KVC,LT,TD,HCM");
-            Console.WriteLine("Chu tro: Nguyen Van A ");
-
-            //Thong Tin Nguoi Thue
-            Console.WriteLine("Nhap Ten nguoi thue phong: ");
-            s_TenNguoiThue = Console.ReadLine();
-            Console.WriteLine("Nhap Ngay Thang Nam Sinh Nguoi Thue: ");
-            s_Age = Console.ReadLine();
-            Console.WriteLine("Nhap Dia Chi Cu Tru(Theo CMND): ");
-            s_QueQuanNT = Console.ReadLine();
-
-            //Thong Tin Phong
-            Console.WriteLine("Nhap Ten Phong: ");
-            s_TenPhong = Console.ReadLine();
-            Console.WriteLine("Nhap gia phong: ");
-            d_TienPhong = double.Parse(Console.ReadLine());
-            Console.WriteLine("Nhap tien dien: ");
-            d_TienDien = double.Parse(Console.ReadLine());
-            Console.WriteLine("Nhap tien nuoc: ");
-            d_TienNuoc = double.Parse(Console.ReadLine());
-            Console.WriteLine("Nhap tien wifi: ");
-            d_TienWF = double.Parse(Console.ReadLine());
-            Console.WriteLine("Nhap tien rac: ");
-            d_Rac = double.Parse(Console.ReadLine());
-
-
-            //**Phan xuat thong tin
-            //Thong tin cua Day tro
-            Console.WriteLine("****************** HOA DON *****************");
-            Console.WriteLine("Dia chi day tro: So 123/7 KVC,LT,TD,HCM");
-            Console.WriteLine("Chu tro: Nguyen Van A ");
-
-            //Thong tin ng thue
-            Console.WriteLine("Nguoi Thue: {0}", s_TenNguoiThue);
-            Console.WriteLine("Ng/Th/NS: {0}", s_Age);
-            Console.WriteLine("Dia Chi Cu Tru(Theo CMND): {0}", s_QueQuanNT);
-
-            //Thong tin phong
-            Console.WriteLine("Ten Phong: {0}", s_TenPhong);
-            Console.WriteLine("Tien Phong: {0}", d_TienPhong);
-            Console.WriteLine("Tien Dien: {0}", d_TienDien);
-            Console.WriteLine("Tien Nuoc: {0}", d_TienNuoc);
-            Console.WriteLine("Tien WiFi: {0}", d_TienWF);
-            Console.WriteLine("Tien Rac: {0}", d_Rac);
-            Console.WriteLine("Tong Tien: {0}", (d_TienPhong + d_TienDien + d_TienNuoc + d_TienWF + d_Rac));
-
-            Console.ReadKey();
-
-        }
-    }
-}
+1.	Viết chương trình Console Application với ngôn ngữ C# in ra dòng chữ “Hello FIT-TDC” lên màn hình Console.
+2.	Viết chương trình nhập vào từ bàn phím một giá trị là tên và in ra màn hình Console dòng chữ: Chào mừng <Tên> đến với FIT-TDC
+3.	Tạo một biến kiểu dữ liệu int khởi tạo giá trị bằng 100. Sau đó, tạo một biến kiểu dữ liệu int và gán giá trị khởi tạo bằng giá trị của biến được tạo ở ý trên.
+4.	Nhập vào 2 giá trị và xuất ra các biểu thức toán học với 2 giá trị đó.
+5.	Chương  trình  cho phép nhập vào hai  số nguyên num1, num2. Thực hiện theo yêu cầu sau: 
+ 
+6.	 Chương trình cho phép nhập vào một số nguyên dương. Kiểm tra và in ra màn hình kết quả “Là số chẵn” hoặc “Là số lẻ”. 
+7.	Chương trình cho phép nhập vào một số nguyên dương num. Nếu  là số chẵn thì tăng num  lên một đơn vị, nếu  là số  lẻ thì giảm num một đơn vị. In giá trị mới của num.  
+8.	Chương  trình  cho  phép  người  dùng  nhập  các  giá  trị  sale_1,  sale_2  và commission_rate. Tính total_sale = sale_1 + sale_2 và commission = total_sale* commission_rate. In ra màn hình giá trị commission. 
+9.	Chương  trình cho phép nhập vào hai giá  trị num1, num2. Thực hiện hoán vị hai giá trị num1 và num2 cho nhau. In giá trị mới ra màn hình. 
+10.	Chương trình cho phép nhập vào ba sô a, b, c. Tìm và in ra giá trị lớn nhất ra màn hình.
+Bài tập nâng cao
+11.	Chương trình cho phép người dùng nhập một chữ số bất kỳ từ 0 đến 9. In  ra màn  hình  từ  tương  ứng  với  số  vừa  nhập,  ngược  lại  thông  báo “không đọc được”. Ví dụ: Nhập 1,  in ra màn hình “Một”; Nhập 10,  in ra thông báo”Khong doc duoc”.
+12.	Chương  trình cho phép người dùng nhập vào một số nguyên dương n. Kiểm  tra  số  đó  có phải  là  số nguyên  tố  hay  không? Nếu đúng  chương trình trả về kết quả là 1, ngược lại trả về 0.
+13.	Chương  trình  cho  phép  người  nhập một  số  nguyên dương n  nhỏ  hơn 100, in tất cả số nguyên tố nhỏ hơn n?
