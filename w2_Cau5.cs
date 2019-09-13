@@ -9,7 +9,7 @@ namespace ConsoleApplication5
     {
         static void Main(string[] args)
         {
-            Console.OutputEncoding = UnicodeEncoding.UTF8;
+            Console.OutputEncoding = UnicodeEncoding.UTF8;//vietkey
             Console.WriteLine("Nhap nam duong lich ban muon doi: ");
             int nNam = int.Parse(Console.ReadLine());
             int nCan = nNam % 10;
