@@ -1,0 +1,16 @@
+Bài tập 1: Viết chương trình cho phép nhập vào một số n và in ra màn hình giá trị [-n..n]. Viết với các cấu trúc lặp for, while, và do while. 
+Bài tập 2: Viết chương trình cho phép nhập vào một số n và in ra màn hình số chẵn từ [-n..n]. Viết với các cấu trúc lặp for, while, và do while 
+Bài tập 3: Viết chương trình nhập vào số n và kiểm tra xem n có phải số nguyên tố hay không?
+C.	MẢNG MỘT CHIỀU
+Bài tập 1: Nhập vào dãy số, các số ngăn cách nhau bởi dấy phẩy. In ra:
+1.	Tổng các số thực âm và tổng số thực dương;
+2.	Tổng số thực lớn hơn X và tổng số thực nhỏ hơn X (X được nhập từ bàn phím);
+3.	Tổng các số nguyên chẵn và các số nguyên lẻ;
+4.	Tổng số thực âm lớn nhất và số thực dương nhỏ nhất
+D.	XỬ LÝ CHUỖI
+Bài tập 1: Viết chương trình nhập vào 2 chuỗi và thực hiện các chức năng như sau:
+1.	So sánh hai chuỗi vừa nhập (có phân biệt chữ thường và chữ Hoa) xuất kết quả ra màn hình (sử dụng Compare)
+2.	So sánh hai chuỗi vừa nhập (không phân biệt chữ thường và chữ Hoa) xuất kết quả ra màn hình (sử dụng Compare)
+3.	Nối chuổi 1 và chuỗi 2 và xuất kết quả ra màn hình (sử dụng Concat)
+4.	Cho biết vị trí xuất hiện chuỗi 2 trong chuỗi 1 (sử dụng indexof) xuất vị trí bắt đầu xuất hiện chuỗi 2 ra màn hình
+5.	Chèn chuỗi 2 vào sau cuối của chuỗi 1 (sử dụng Insert) và xuất kết quả ra màn hình
